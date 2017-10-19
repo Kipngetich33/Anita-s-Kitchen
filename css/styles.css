@@ -1,8 +1,15 @@
 .top{
-  background: url('../ip2/assets/backgrounds/landing.jpg') no repeat;
+  text-align:center;
+  min-height: 400px;
+  background: url('../ip2/assets/backgrounds/landing.jpg');
   color:white;
 }
-#logo{
-  text-align: : center;
-  min-height: 400px:
+#breakfast{
+  background: url('../ip2/assets/background/breakfast.jpg');
+}
+#party-hour{
+  background-color: #F15A29;
+}
+#happy-hour{
+  background-color: white;
 }
