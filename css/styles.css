@@ -3,13 +3,47 @@
   min-height: 400px;
   background: url('../ip2/assets/backgrounds/landing.jpg');
   color:white;
-}
-#breakfast{
-  background: url('../ip2/assets/background/breakfast.jpg');
+  margin-bottom: 0px;
 }
 #party-hour{
   background-color: #F15A29;
+  height:105px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
 }
 #happy-hour{
+
   background-color: white;
+  height:105px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
 }
+#breakfast{
+  height:210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
+#lunch{
+  height:210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/lunch.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
+#dinner{
+  height:210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/dinner.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
