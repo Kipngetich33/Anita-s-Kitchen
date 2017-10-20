@@ -8,6 +8,12 @@
 #main-menu{
   margin-top: 0px;
 }
+#logo{
+  margin-top: 70px;
+}
+#logo-caption{
+  padding: 30px;
+}
 #party-hour{
   background-color: #F15A29;
   height:105px;
