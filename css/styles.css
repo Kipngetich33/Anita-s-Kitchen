@@ -11,6 +11,7 @@
   width: 350px;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 #happy-hour{
 
@@ -19,6 +20,7 @@
   width: 350px;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 #breakfast{
   height:210px;
@@ -47,3 +49,8 @@
   color: #ffffff;
   align-items: center;
   }
+.button{
+ font-style: italic;
+ color: #ff3300;
+ font-style: oblique;
+ }
