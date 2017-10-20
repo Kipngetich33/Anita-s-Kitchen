@@ -49,8 +49,30 @@
   color: #ffffff;
   align-items: center;
   }
-.button{
- font-style: italic;
- color: #ff3300;
- font-style: oblique;
+  #img{
+    margin: 100px;
+    border-radius: 4px;
+    padding: 5px;
+    padding-right: 0px;
+    border: 1px solid #ddd;
+    align-content: center;
+    align-items: center;
+  }
+  #img1 {
+    width: 400px;
+}
+#img2 {
+  width: 400px;
+}
+
+#button1 {
+    background-color: white;
+    color: #F15A29;
+    border: 2px solid #F15A29;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+ .text{
+   padding: 50px;
  }
