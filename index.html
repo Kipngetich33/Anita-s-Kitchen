@@ -8,12 +8,21 @@
   </head>
   <body>
       <div class="top">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">contacts</a>
+            <a href="#">events</a>
+            <a href="#">menu</a>
+          </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" id=myNav1>&#9776;</span>
         <div class="container">
           <img src="ip2/assets/logoBig.png" id="logo">
           <h1>We Provide the Best Food <br/>at the Right Price</h1>
         </div>
     </div>
-      <div class="row">
+      <div class="row" id="main-menu">
           <div class="col-md-3">
             <div class="row" id="happy-hour">
               happy hour
@@ -77,11 +86,15 @@
         </div>
         <div class="col-6">
         <div class="img" id="img">
-          <img src="ip2/assets/drink1.jpg" alt="" id="img1">
-          <img src="ip2/assets/drink2.jpg" alt="" id="img2">
+          <img src="ip2/assets/drink1.jpg" alt="" id="img3">
+          <img src="ip2/assets/drink2.jpg" alt="" id="img4">
         </div>
       </div>
     </div>
-  </div>
+    <div class="row">
+      <div class></div>
+    </div>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
