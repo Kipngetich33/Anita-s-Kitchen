@@ -164,6 +164,59 @@
  #back{
 
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
+  display: flex;
+  background-size: cover;
+  align-content: center;
+  align-items: center;
+}
+#panel{
+  display: flex;
+  margin: 100px;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  align-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 62%;
+  background-color: #ffffff;
+  margin-left: 20%;
+}
+#table1{
+  width:100%;
+  margin-left: 25px;
+}
+#table2{
+  width:100%;
+}
+.img-padding1{
+  padding: 40px;
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  border-color: black;
+}
+.img-padding{
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 25px;
+  color: orange;
+}
+#customers{
+  display: flex;
+  margin: 100px;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  align-content: center;
+  align-items: center;
+  width: 62%;
+  background-color: #ffffff;
+  margin-left: 20%;
+}
+#subsctiption{
+  background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
   height: 50vh;
   background-size: cover;
 }
