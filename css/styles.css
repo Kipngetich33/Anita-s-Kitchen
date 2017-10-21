@@ -3,10 +3,12 @@
   min-height: 400px;
   background: url('../ip2/assets/backgrounds/landing.jpg');
   color:white;
-  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#main-menu{
-  margin-top: 0px;
+#filler {
+  background-color:white; 
+  background-size: cover;
 }
 #logo{
   margin-top: 70px;
@@ -66,6 +68,7 @@
     border: 1px solid #ddd;
     align-content: center;
     align-items: center;
+    width: 410px;
   }
   #img1 {
     width: 400px;
@@ -78,6 +81,16 @@
 }
 #img4{
   height:300px;
+}
+#img5{
+  margin: 100px;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 0px;
+  border: 1px solid #ddd;
+  align-content: center;
+  align-items: center;
+  width: 395px;
 }
 #button1 {
     background-color: white;
@@ -148,8 +161,17 @@
      right: 35px;
    }
  }
+ #back{
+
+  background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
+  height: 50vh;
+  background-size: cover;
+}
 #footer{
   background-color:  #e65c00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #logo-white{
   float: left;
@@ -172,3 +194,4 @@
   font-size: 15px;
   padding-left: 45px;
 }
+
