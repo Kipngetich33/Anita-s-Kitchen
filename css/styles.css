@@ -7,11 +7,10 @@
   background-size: cover;
 }
 #main-menu{
-background-size: cover;
+width: cover;
 }
 #filler {
   background-color:white; 
-  background-size: cover;
 }
 #logo{
   margin-top: 70px;
@@ -37,14 +36,14 @@ background-size: cover;
   display: flex;
 }
 #breakfast{
-  height:210px;
-  width: 100%;
+  width: 240px;
   background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
   justify-content: center;
   display: flex;
   color: #ffffff;
   align-items: center;
   padding: 0px;
+  margin: 0px;
   }
 #lunch{
   /*height:210px;
@@ -207,7 +206,7 @@ background-size: cover;
 }
 #customers{
   display: flex;
-  margin: 100px;
+  margin: 50px;
   border-radius: 4px;
   padding: 5px;
   border: 1px solid #ddd;
@@ -216,6 +215,9 @@ background-size: cover;
   width: 70%;
   background-color: #ffffff;
   margin-left: 13%;
+}
+#customers-column{
+  border-l: 1px solid gray;
 }
 #subsctiption{
   background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
@@ -226,9 +228,12 @@ background-size: cover;
   align-content: center;
   color: #ffffff;
   font-size: 35px;
+  background-image: no-repeat;
 }
 #email{
-  background:transparent;
+  background: inherit;
+  color: #ffffff;
+  width: 70%;
 }
 #button{
   background-color: #e65c00;
