@@ -25,8 +25,7 @@ width: cover;
   justify-content: center;
   align-items: center;
   display: flex;
-  background-size: cover;
-  padding-right: 0px;
+
 }
 #happy-hour{
 
@@ -36,7 +35,6 @@ width: cover;
   justify-content: center;
   align-items: center;
   display: flex;
-  background-size: cover;
 }
 #breakfast{
   /*width: 240px;*/
@@ -129,9 +127,10 @@ width: cover;
 #myNav1{
   float: left;
   margin: 20px;
+  width: 100px;
 }
  .overlay {
-     height: 0%;
+     height:0px;
      width: 100%;
      position: fixed;
      z-index: 1;
