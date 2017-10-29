@@ -37,7 +37,7 @@ width: cover;
 }
 #breakfast{
   width: 240px;
-  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
+  background:url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
   justify-content: center;
   display: flex;
   color: #ffffff;
@@ -45,6 +45,22 @@ width: cover;
   padding: 0px;
   margin: 0px;
   }
+#breakfast:hover {
+  opacity: 0.3;
+}
+#lunch:hover {
+  opacity: 0.3;
+}
+#dinner:hover {
+  opacity: 0.3;
+}
+/*#breakfast1{
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+
+}*/
 #lunch{
   /*height:210px;
   width: 350px;*/
