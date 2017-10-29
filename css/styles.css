@@ -6,9 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#main-menu{
+/*#main-menu{
 width: cover;
-}
+}*/
 #filler {
   background-color:white; 
 }
@@ -20,23 +20,26 @@ width: cover;
 }
 #party-hour{
   background-color: #F15A29;
-  height:105px;
+  height:150px;
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
+  background-size: cover;
+  padding-right: 0px;
 }
 #happy-hour{
 
   background-color: white;
-  height:105px;
+  height:150px;
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
+  background-size: cover;
 }
 #breakfast{
-  width: 240px;
+  /*width: 240px;*/
   background:url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
   justify-content: center;
   display: flex;
@@ -44,6 +47,7 @@ width: cover;
   align-items: center;
   padding: 0px;
   margin: 0px;
+  background-size: cover;
   }
 #breakfast:hover {
   opacity: 0.3;
@@ -54,13 +58,6 @@ width: cover;
 #dinner:hover {
   opacity: 0.3;
 }
-/*#breakfast1{
-  justify-content: center;
-  display: flex;
-  color: #ffffff;
-  align-items: center;
-
-}*/
 #lunch{
   /*height:210px;
   width: 350px;*/
@@ -69,6 +66,7 @@ width: cover;
   display: flex;
   color: #ffffff;
   align-items: center;
+  background-size: cover;
   }
 #dinner{
   /*height:210px;
@@ -78,6 +76,7 @@ width: cover;
   display: flex;
   color: #ffffff;
   align-items: center;
+  background-size: cover;
   }
   #img{
     margin: 100px;
@@ -184,7 +183,6 @@ width: cover;
 
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
   display: flex;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
