@@ -46,12 +46,15 @@
   }
 #breakfast:hover {
   opacity: 0.3;
+  color:black;
 }
 #lunch:hover {
   opacity: 0.3;
+  color:black;
 }
 #dinner:hover {
   opacity: 0.3;
+  color:black;
 }
 #lunch{
   /*height:210px;
