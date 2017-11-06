@@ -18,7 +18,7 @@
 #party-hour{
   background-color: #F15A29;
   height:120px;
-  width: 107%;
+  width: 109%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -28,7 +28,7 @@
 
   background-color: white;
   height:120px;
-  width: 107%;
+  width: 109%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -46,7 +46,9 @@
   }
 #breakfast:hover {
   opacity: 0.3;
-  color:black;
+ .
+ ..........
+  color:#000000;
 }
 #lunch:hover {
   opacity: 0.3;
@@ -216,6 +218,18 @@
   padding-left: 50px;
   font-size: 25px;
   color: orange;
+}
+#table1{
+  background-color: gainsboro;
+  width: 95%;
+}
+#slide{
+  color: #e65c00;
+  font-weight: bolder;
+  font-size: 25px; 
+}
+#table1 td:hover{
+  background-color: white;
 }
 #customers{
   display: flex;
